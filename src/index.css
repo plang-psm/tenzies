@@ -9,14 +9,14 @@ body {
 }
 
 .title {
-  font-size: 70px;
+  font-size: 3rem;
   margin: 0;
   margin-top: 10px;
 }
 
 .instructions {
   font-family: 'Inter', sans-serif;
-  font-size: large;
+  font-size: 1.3rem;
   font-weight: 400;
   margin-top: -15px;
   max-width: 80%;
@@ -25,14 +25,14 @@ body {
 .highscore {
   font-family: 'Inter', sans-serif;
   font-weight: bolder;
-  font-size: 25px;
+  font-size: 1.3rem;
   margin-top: -20px;
 }
 
 .dice-roll {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 1.3rem;
   margin-top: -30px;
 }
 
@@ -80,4 +80,42 @@ body {
   font-size: 1.2rem;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+  .main-container {
+    width: 700px;
+    height: 600px;
+  }
+
+  .die-container {
+    gap: 40px;
+  }
+
+  .die-face {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 375px) {
+  .main-container {
+    max-width: 400px;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .die-container {
+    max-width: 100%;
+    gap: 25px;
+  }
+
+  .die-face {
+    width: 50px;
+    height: 50px;
+  }
+  .die-number {
+    font-size: 1.6rem;
+  }
 }
