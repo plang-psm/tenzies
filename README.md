@@ -37,7 +37,7 @@ Tenzies is a web application game thats main goal is to match all 10 dice to the
 
 
 ## Road Map
-- [ ] Responsive design.
+- [X] Responsive design.
 
 ## Launch
 You can open the project here:
