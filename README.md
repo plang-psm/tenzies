@@ -24,7 +24,7 @@
 
 
 ## Description
-Tenzies is a web application game thats main goal is to match all 10 dice to the same number. Roll until all dice are the same. Click each die to freeze it at its current value between rolls.
+Tenzies is a web application game with the main goal of matching all 10 dice to the same number. Roll until all dice are the same. Click each die to freeze it at its current value between rolls.
 
 ## How to play
 * Click Roll to change the numbers
